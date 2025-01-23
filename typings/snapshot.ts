@@ -1,10 +1,5 @@
 export const SNAPSHOT_EU =
   'https://snapshot-de.mydefichain.com/';
-export const SNAPSHOT_ASIA =
-  'https://defi-snapshots.s3-ap-southeast-1.amazonaws.com/';
-export const SNAPSHOT_AU =
-  'https://defi-snapshots-sydney.s3-ap-southeast-2.amazonaws.com/';
-export const SNAPSHOT_US = 'https://defi-snapshots-us.s3.amazonaws.com/';
 export const SNAPSHOT_INDEX = 'index.txt';
 export interface SnapshotInterface {
   SNAPSHOT_BLOCK: string;
@@ -18,7 +13,7 @@ export let SNAPSHOT_INFO = {
   SNAPSHOT_EXTENSION: '.zip',
 };
 
-export const SNAPSHOT_PROVIDER = 'DeFiChain Foundation';
+export const SNAPSHOT_PROVIDER = 'mydefichain';
 
 export const getSnapshotFilename = (): string => {
   const info = SNAPSHOT_INFO;

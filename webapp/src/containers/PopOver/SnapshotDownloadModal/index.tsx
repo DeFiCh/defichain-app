@@ -24,9 +24,6 @@ import { DownloadSnapshotSteps } from '../types';
 import {
   SNAPSHOT_PROVIDER,
   SNAPSHOT_EU,
-  SNAPSHOT_ASIA,
-  SNAPSHOT_US,
-  SNAPSHOT_AU,
 } from '@defi_types/snapshot';
 import {
   openDownloadSnapshotModal,
@@ -53,18 +50,6 @@ const SnapshotDownloadModal: React.FunctionComponent = () => {
     {
       label: 'Europe',
       value: SNAPSHOT_EU,
-    },
-    {
-      label: 'Asia',
-      value: SNAPSHOT_ASIA,
-    },
-    {
-      label: 'US',
-      value: SNAPSHOT_US,
-    },
-    {
-      label: 'Australia',
-      value: SNAPSHOT_AU,
     },
   ];
 
